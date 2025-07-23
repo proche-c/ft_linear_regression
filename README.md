@@ -22,6 +22,6 @@ Predict the price of a car based on its mileage using a linear regression model 
 
 To train the model, run:
 
-`bash
+```bash
 python train.py data.csv --plot
 `
