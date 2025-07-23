@@ -26,7 +26,10 @@ To train the model, run:
 python train.py data.csv --plot
 ```
 
-### Useful Arguments:
-- --delimiter, -d: CSV file delimiter (default is ,)
-- --learning_rate, -lr: Learning rate for gradient descent
+### Useful Arguments:  
+- --delimiter, -d: CSV file delimiter (default is ,)  
+- --learning_rate, -lr: Learning rate for gradient descent  
+- --steps, -s: Maximum number of training iterations  
+- --init_theta0, --init_theta1: Initial values for the model parameters
+- --plot, -p: Displays graphs of the training process and regression  
 
