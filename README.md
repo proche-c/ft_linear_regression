@@ -34,6 +34,17 @@ python train.py data.csv --plot
 - --init_theta0, --init_theta1: Initial values for the model parameters
 - --plot, -p: Displays graphs of the training process and regression
 
+### 📁 Sample data.csv file  
+
+```csv
+km,price
+240000,3650
+139800,3800
+150500,4400
+...
+``` 
+
+
 ## 🔍 Prediction  
 
 Once the model is trained, predict the price of a car from the command line:  
@@ -46,4 +57,13 @@ Or by manually specifying the parameters:
 ```bash
 python predict.py -th0 <theta0_value> -th1 <theta1_value>
 ```
+
+##📊 Visualization  
+
+If you use the --plot flag during training, the following graphs will be displayed:
+  + The regression line fitted to the dataset.
+  + The Mean Squared Error (MSE) over training steps.  
+  + The coefficient of determination (R²) showing model accuracy.
+
+
 
