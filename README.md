@@ -58,7 +58,7 @@ Or by manually specifying the parameters:
 python predict.py -th0 <theta0_value> -th1 <theta1_value>
 ```
 
-##📊 Visualization  
+## 📊 Visualization  
 
 If you use the --plot flag during training, the following graphs will be displayed:
   + The regression line fitted to the dataset.
