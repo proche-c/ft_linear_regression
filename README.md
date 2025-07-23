@@ -65,5 +65,28 @@ If you use the --plot flag during training, the following graphs will be display
   + The Mean Squared Error (MSE) over training steps.  
   + The coefficient of determination (R²) showing model accuracy.
 
+## ⚙️ Setting up the Environment  
+
+This project uses Pipenv for dependency management.  
+To install dependencies and create the virtual environment:  
+
+```bash
+chmod +x install.sh
+./install.sh
+```
+
+Then, activate the environment with:  
+
+```bash
+pipenv shell
+```
+
+## ✅ Requirements  
+
++ Python 3.13
++ Pipenv
++ Libraries:
+    + numpy
+    + matplotlib  
 
 
