@@ -24,4 +24,4 @@ To train the model, run:
 
 ```bash
 python train.py data.csv --plot
-`
+
