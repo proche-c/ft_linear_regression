@@ -27,9 +27,23 @@ python train.py data.csv --plot
 ```
 
 ### Useful Arguments:  
+
 - --delimiter, -d: CSV file delimiter (default is ,)  
 - --learning_rate, -lr: Learning rate for gradient descent  
 - --steps, -s: Maximum number of training iterations  
 - --init_theta0, --init_theta1: Initial values for the model parameters
-- --plot, -p: Displays graphs of the training process and regression  
+- --plot, -p: Displays graphs of the training process and regression
+
+## 🔍 Prediction  
+
+Once the model is trained, predict the price of a car from the command line:  
+
+```bash
+python predict.py --jsonfile
+```
+Or by manually specifying the parameters:  
+
+```bash
+python predict.py -th0 <theta0_value> -th1 <theta1_value>
+```
 
