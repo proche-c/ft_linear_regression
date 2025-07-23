@@ -24,4 +24,9 @@ To train the model, run:
 
 ```bash
 python train.py data.csv --plot
+```
+
+### Useful Arguments:
+- --delimiter, -d: CSV file delimiter (default is ,)
+- --learning_rate, -lr: Learning rate for gradient descent
 
