@@ -72,7 +72,7 @@ To install dependencies and create the virtual environment:
 
 ```bash
 chmod +x install.sh
-./install.sh
+bash ./install.sh
 ```
 
 Then, activate the environment with:  
